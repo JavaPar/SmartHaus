@@ -1,0 +1,96 @@
+<!--pages/product/product.wxml-->
+<view class='container'>
+  <view class='top'>
+    <view style='color:#EE0E24'>人数要求:20人</view>
+    <view>已报名人数:18人</view>
+  </view>
+  <view class='product1'>
+    <view class='image1'>
+      <image mode='widthFix' src='../../images/1.jpg'></image>
+    </view>
+    <view class='desc1'>
+      <view class='row1'>
+        <view class='clom1'>|指纹锁--AK720介绍</view>
+        <view class='clom2'>
+          <navigator>收藏</navigator>
+        </view>
+        <view class='clom3'>
+          <navigator>报名</navigator>
+        </view>
+      </view>
+      <view class='row2'>
+        <text>盖特曼所有在售产品均为原装进口产品,
+          由本地专业团队提供上门安装服务和3年质保。
+          质保期内只换不修。
+        </text>
+      </view>
+    </view>
+    <p style="color:white;">1</p>
+    <view class='image1'>
+      <image mode='widthFix' src='../../images/1.jpg'></image>
+    </view>
+    <view class='desc1'>
+      <view class='row1'>
+        <view class='clom1'>|指纹锁--AK720介绍</view>
+        <view class='clom2'>
+          <navigator>收藏</navigator>
+        </view>
+        <view class='clom3'>
+          <navigator>报名</navigator>
+        </view>
+      </view>
+      <view class='row2'>
+        <text>盖特曼所有在售产品均为原装进口产品,
+          由本地专业团队提供上门安装服务和3年质保。
+          质保期内只换不修。
+        </text>
+      </view>
+    </view>
+    <p style="color:white;">1</p>
+  </view>
+  <view class='gehang'>1</view>
+  <view class='ren'>
+    已报名人数(20人)
+  </view>
+  <view class='tou'>
+    <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+     <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+      <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+       <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+  </view>
+  <view class='titles'>
+    留言
+  </view>
+  <view class='propers'>
+    <view class='proper'>
+      <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+      <view class='dsplay'>
+        <view>参与者</view>
+        <view class='pin'>
+          <textarea disabled="true" value='1111111111111111111111111111111111111111111111111'></textarea>
+        </view>
+      </view>
+      <view class='times'>
+        2018年4月20日
+      </view>
+    </view>
+    <view class='proper'>
+      <view class='images1'><image mode="widthFix" src='../../images/me.png'></image></view>
+      <view class='dsplay'>
+        <view>参与者</view>
+        <view class='pin'>
+          <textarea disabled="true" value='1111111111111111111111111111111111111111111111111'></textarea>
+        </view>
+      </view>
+      <view class='times'>
+        2018年4月20日
+      </view>
+    </view>
+  </view>
+  <view class='liuyan'>
+    <textarea maxlength="-1"></textarea>
+  </view>
+  <view class='tre'>
+    <navigator url='#'>留言</navigator>
+  </view>
+</view>

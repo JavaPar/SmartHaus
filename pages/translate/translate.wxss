@@ -1,0 +1,43 @@
+/* pages/myActivity/myActivity.wxss */
+.top{
+  width: 100%;
+}
+.shop{
+  width: 100%;
+  /* border: 1px solid red; */
+  border-bottom: 1px dashed gray;
+}
+.prices{
+  display: flex;
+  width: 99%;
+}
+.images{
+  margin: 1% 1% 1% 4%;
+  width: 30%;
+  /* border: 1px solid red; */
+}
+.images1{
+  margin: 1% 1% 1% 1%;
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.thumbnail {
+  width: 100%;
+  /* border: solid 1px #f2f2f2; */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.name1{
+  margin: 2% 1% 1% 1%;
+  /* border: 1px solid red; */
+}
+.name2{
+  font-size: 45rpx;
+  font-weight: 700;
+  margin: 3% 1% 1% 1%;
+  /* border: 1px solid red; */
+}
+.name3{
+  margin: 4% 1% 1% 1%;
+  /* border: 1px solid red; */
+}

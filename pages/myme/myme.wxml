@@ -1,0 +1,33 @@
+<view class="user-info">
+     <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>  -->
+      <view wx:if="{{hasUserInfo == false && canIUse}}">
+        <button class="unLoad avatar" open-type="getUserInfo" bindgetuserinfo="getUserInfo"><image class="Load"  src="/images/no_pic.jpg" mode="widthFix"></image>
+        </button>
+        <text class="givename nickname" >点击这里获取授权</text> 
+    </view> 
+    <block wx:else>
+      <image bindtap="bindViewTap" class="avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickname">{{userInfo.nickName}}</text>
+      <text>完善资料,报名更方便哦</text>
+    </block>
+</view>
+
+<view class="cells">
+    <navigator url="/pages/myActivity/myActivity" class="cell" hover-class="active-cell">
+        <text>报名活动</text>
+    </navigator>
+
+    <navigator url="/pages/translate/translate" class="cell" hover-class="active-cell">
+        <text>我的收藏</text>
+    </navigator>
+    <navigator url="/pages/address/address" class="cell" hover-class="active-cell">
+        <text>我的地址</text>
+    </navigator>
+    <navigator url="/pages/mywork/mywork" class="cell" hover-class="active-cell">
+        <text class='te1'>我的工单(仅工程师可见)</text>
+    </navigator>
+    <view class="cell" hover-class="active-cell" bindtap="hotLine">
+        <text>联系客服</text>
+        <text class="phone">400-968-5768</text>
+    </view>
+</view>

@@ -1,0 +1,51 @@
+.title{
+  text-align: left;
+  font-weight: 900;
+}
+.content{
+  color: grey;
+  text-align: left;
+  font-size: 28rpx;
+}
+.xuanzhe{
+  margin: 3% 1% 1% 1%;
+  width: 90%;
+  /* border: 1px solid red; */
+}
+.names{
+  margin: 1% 1% 1% 1%;
+  width: 90%;
+  border-radius: 15rpx;  
+  border: 1px solid grey;
+}
+.phone{
+  margin: 1% 1% 1% 1%;
+  width: 90%;
+  border-radius: 15rpx; 
+  border: 1px solid grey;
+}
+input{
+  margin-left: 20rpx;  
+  height: 60rpx;  
+}
+.desc{
+  margin: 3% 1% 1% 1%;
+  width: 90%;
+  border-radius: 20rpx; 
+  border: 1px solid grey;
+}
+.desc textarea{
+  width: 95%;
+  margin: 1% 1% 1% 2%;
+  /* border: 1px solid red; */
+}
+.anliu{
+  width: 92%;
+  /* border: 1px solid red; */
+}
+.anliu button{
+  margin: 1% 1% 1% 1%;
+  width: 45%;
+  color: white;
+  background-color: #EE0E24;
+}

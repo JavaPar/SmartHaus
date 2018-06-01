@@ -1,0 +1,109 @@
+<view class='container'>
+  <!-- 此处显示已报名活动 -->
+  <view class='top'>
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>待处理</text>
+        </view>
+      </view>
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>工程师:</view>
+          <view class='proName'></view>
+          <view class='proPhone'></view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>处理中</text>
+        </view>
+      </view>
+
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>工程师:</view>
+          <view class='proName'>刘欢</view>
+          <view class='proPhone'>13550272488</view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>已完成</text>
+        </view>
+      </view>
+
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>工程师:</view>
+          <view class='proName'>刘欢</view>
+          <view class='proPhone'>13550272488</view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+</view>

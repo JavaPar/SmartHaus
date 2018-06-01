@@ -1,0 +1,27 @@
+page {
+  padding: 15px;
+  box-sizing: border-box;
+}
+.textarea {
+  border: solid 1px #f2f2f2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 15px;
+  display: block;
+  height: 44px;
+  margin-bottom: 10px;
+}
+.cells {
+  margin: 0 0 15px;
+}
+.buttons{
+  /* border: 1px solid red; */
+}
+.btn-submit{
+  padding: 2% 1% 2% 1%;
+  background-color: #EE0E24;
+  border-radius:50rpx; 
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,132 @@
+.categories {
+  width: 160rpx;
+  position: fixed;
+  left: 0;
+  top:0;
+  bottom: 0;
+  background:red;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+}
+.categories .item {
+  height: 46px;
+  line-height: 46px;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  color: #232326;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+.categories .item.on {
+    background: #fff;
+    color: #f23030;
+}
+.categories .item:after {
+    content: '';
+    height: 1px;
+    width: 200%;
+    position: absolute;
+    left: 0px;
+    top: auto;
+    right: auto;
+    bottom: 0px;
+    background-color: #e5e5e5;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+}
+.content {
+  width: 77%;
+  margin: 1% 1% 1% 22%;
+  /* border: 1px solid red; */
+}
+.text{
+  display: flex;
+  width: 100%;
+}
+.text .text1{
+  font-size: 90%;
+  display: flex;
+  margin: 1% 2% 1% 1%;
+  width: 30%;
+  /* border: 1px solid blue;  */
+}
+.wen{
+  color: #EE0E24;
+  width: 80%;
+}
+.wen1{
+  width: 80%;
+}
+.tu{
+  width: 20%;
+}
+.tu image{
+  width: 60%;
+}
+.product{
+  width: 100%;
+  /* border: 1px solid red;  */
+}
+.products{
+  float: left;
+  width: 48%;
+  margin: 1% 1% 1% 1%;
+  /* border: 1px solid blue; */
+}
+.images1{
+  margin: 1% 1% 1% 1%;
+  width: 96%;
+  /* border: 1px solid red; */
+}
+.thumbnail {
+  width: 100%;
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.imText1{
+  color: #EE0E24;
+  margin: 1% 1% 1% 1%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.imText2{
+  display: flex;
+  font-size: 25rpx;
+  margin: 1% 1% 1% 1%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.jie{
+  width: 55%;
+  /* border: 1px solid red; */
+}
+.tian{
+  text-align: center;
+  color: white;
+  background-color: #EE0E24;
+  width: 45%;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.tishi{
+  text-align: center;
+}

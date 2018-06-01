@@ -1,0 +1,61 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+} 
+.cells {
+  margin: 10px 0;
+  background: white;
+}
+.cell {
+  padding: 15px;
+  position: relative;
+  box-sizing: border-box;
+  /* border-bottom:1rpx solid black;  */
+}
+.cell + .cell:before {
+  content: " ";
+  width: 100%;
+  position: absolute;
+  height: 1rpx;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  border-left: solid 15px white;
+  background: #f2f2f2;
+}
+.cell.gift:before {
+  display: none;
+}
+.cell text {
+  width: 50%;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1.2em;
+}
+.cell text + text {
+  text-align: right;
+  color: #0e7e46;
+}
+.active-cell {
+  background: #EE0E24;
+}
+.cell:after {
+  content: " ";
+  display: block;
+  width: 20rpx;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  border-bottom: solid 1px #0e7e46;
+  border-right: solid 1px #0e7e46;
+  margin-top: -10rpx;
+  transform: rotate(-45deg);
+  height: 20rpx;
+}

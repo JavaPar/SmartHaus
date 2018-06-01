@@ -1,0 +1,24 @@
+<view class='container'>
+  <!-- 此处显示已报名活动 -->
+  <view class='top'>
+   
+    <view class='shop'>
+      <navigator url='#'>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  
+</view>

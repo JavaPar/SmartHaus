@@ -1,0 +1,31 @@
+<view class='container'>
+  <view class='head'>
+    <text class='title'>智能家居建材MALL</text>
+    <text class='content'>
+      智能家居建材Mall公司坐落于成都市武侯区群众路69号1栋1楼53号。
+      成都埃吉斯智能科技有限公司目前拥有专业的工程安装技术人员及售后服务专员共计30余人,精通智能锁安装工程,公司秉承“以锁具之优,保安全之优”的使命......
+    </text>
+  </view>
+  <view class='xuanzhe'>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        <radio value="公司" checked='true'>公司</radio>
+        <radio value="个体" checked='false'>个体</radio>
+      </label>
+    </radio-group>
+  </view>
+  <view class='names'>
+    <input class="" placeholder="姓名" bindfocus='inputName' value=""/> 
+  </view>
+  <view class='phone'>
+    <input class="" placeholder="电话" bindfocus='inputPhone' value=""/> 
+  </view>
+  <view class='desc'>
+    <textarea placeholder='自我介绍'>
+
+    </textarea>
+  </view>
+  <view class='anliu'>
+    <button>提交</button>
+  </view>
+</view>

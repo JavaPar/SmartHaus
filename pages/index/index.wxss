@@ -1,0 +1,144 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.head{
+  display: flex;
+  width: 100%;
+  margin: 0% 1% 0% 1%;
+  /* border: 1px solid black; */
+  background-color: #EE0E24;
+}
+.dinwei{
+  width: 10%;
+}
+.dinwei image{
+  width: 100%;
+}
+.chengshi{
+  display: flex;
+  /* border: 1px solid black; */
+  width: 25%;
+}
+.chengshi .cheng1{
+  text-align: right;
+  margin: 5% 0% 0% 0%;
+  width: 70%;
+}
+.chengshi .cheng2{
+  margin: 6% 0% 0% 0%;
+  width: 30%;
+}
+.cheng2 image{
+  width: 100%;
+}
+.sousuos{
+  width: 65%;
+  /* border: 1px solid black; */
+}
+.search_arr {  
+  display: flex;
+  width: 98%;
+  margin:2% 4% 1% 0%; 
+  background-color: white;
+  border: 1px solid white;  
+  border-radius: 30rpx;    
+}  
+.search_arr input{  
+  margin-left: 80rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}  
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 270rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}  
+.searchcions{
+  margin: 1% 1% 1% 1%;
+}
+.wrapper{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.huodong_head{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.huodong_head .text1{
+  display: flex;
+  margin: 1% 2% 1% 1%;
+  width: 30%;
+  /* border: 1px solid blue; */
+}
+.wen{
+  color: #EE0E24;
+  width: 80%;
+}
+.wen1{
+  width: 80%;
+}
+.tu{
+  width: 20%;
+}
+.tu image{
+  width: 60%;
+}
+.product{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.products{
+  float: left;
+  width: 31%;
+  margin: 1% 1% 1% 1%;
+  /* border: 1px solid blue; */
+}
+.images1{
+  margin: 1% 1% 1% 1%;
+  width: 96%;
+  /* border: 1px solid red; */
+}
+.thumbnail {
+  width: 100%;
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.imText1{
+  color: #EE0E24;
+  margin: 1% 1% 1% 1%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.imText2{
+  display: flex;
+  font-size: 25rpx;
+  margin: 1% 1% 1% 1%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.jie{
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.tian{
+  text-align: center;
+  color: white;
+  background-color: #EE0E24;
+  width: 37%;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.tishi{
+  text-align: center;
+}

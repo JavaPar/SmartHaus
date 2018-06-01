@@ -1,0 +1,108 @@
+<view class='categories'>
+  <scroll-view scroll-y style="height: 100%;">
+    <view class="item {{currentCate == 0 ? 'on' : ''}}" bindtap="switchCate" data-id="0">全部</view>
+    <view class="item {{currentCate == item.id ? 'on' : ''}}" wx:for="{{huodong}}" wx:key="id" bindtap="switchCate" data-id="{{item.id}}">{{item.name}}</view>
+  </scroll-view>
+</view>
+<view class='content'>
+  <view class='text'>
+    <view class='text1' bindtap='paixu' data-id='1'>
+      <view class='{{items == 1?"wen":"wen1"}}'>最新活动</view>
+      <view class='tu'>
+        <image mode='widthFix' src='{{paiImage1}}'></image>
+      </view>
+    </view>
+    <view class='text1' bindtap='paixu' data-id='2'>
+      <view class='{{items == 2?"wen":"wen1"}}'>离我最近</view>
+      <view class='tu'>
+        <image mode='widthFix' src='{{paiImage2}}'></image>
+      </view>
+    </view>
+    <view class='text1' bindtap='paixu' data-id='3'>
+      <view class='{{items == 3?"wen":"wen1"}}'>掌柜推荐</view>
+      <view class='tu'>
+        <image mode='widthFix' src='{{paiImage3}}'></image>
+      </view>
+    </view>
+  </view>
+  <view class='product'>
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>三天</view>
+        </view>
+      </view>
+    </navigator>
+    
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>N天</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>N天</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>N天</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>N天</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url='/pages/product/product'>
+      <view class='products'>
+        <view class='images1'>
+          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+        </view>
+        <view class='imText1'>活动名称</view>
+        <view class='imText2'>
+          <view class='jie'>离活动结束:</view>
+          <view class='tian'>N天</view>
+        </view>
+      </view>
+    </navigator>
+    <view class='tishi'>下拉加载更多</view>
+  </view>
+</view>

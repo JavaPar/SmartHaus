@@ -1,0 +1,8 @@
+<view class="container">
+   <input class="textarea" bindinput="input" data-id='1' placeholder="姓名"  />
+   <input class="textarea" type="number" bindinput="input" data-id='2' placeholder="电话" />
+   <input class="textarea" bindinput="input" data-id='3' placeholder="地址" />
+</view>
+<view class="buttons">
+    <view class="btn-submit" bindtap="submit" loading="{{submitting}}" disabled="{{submitting}}">提交</view>
+</view>

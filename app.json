@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mywork/mywork",
+    "pages/myActivity/myActivity",
+    "pages/myme/myme",
+    "pages/activity/activity",
+    "pages/Business/Business",
+    "pages/translate/translate",
+    "pages/product/product",
+    "pages/myhandle/myhandle",
+    "pages/address/address",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EE0E24",
+    "navigationBarTitleText": "智能家居建材MALL",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "black",
+    "selectedColor": "#EE0E24",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "images/huodong.png",
+        "selectedIconPath": "images/huodong1.png",
+        "text": "活动分类"
+      },
+      {
+        "pagePath": "pages/Business/Business",
+        "iconPath": "images/hezuo.png",
+        "selectedIconPath": "images/hezuo1.png",
+        "text": "商务合作"
+      },
+      {
+        "pagePath": "pages/myme/myme",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me1.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

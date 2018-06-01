@@ -1,0 +1,31 @@
+<view class='container'>
+  <view class='top'>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        <radio value="成功" checked='true'/>成功
+        <radio value='失败' checked='false'/>失败
+      </label>
+    </radio-group>
+  </view>
+  <view class='heads'>
+    <textarea maxlength='-1' placeholder="情况说明"></textarea>
+  </view>
+  <view class='photo'>
+    <!-- 添加图片按钮  -->
+    <view class="question-images-tool">
+      <button type="default" size="mini" bindtap="chooseImage" wx:if="{{images.length < 5}}">添加图片</button>
+    </view>
+
+    <!-- 图片缩略图  -->
+    <view class="question-images">
+      <block wx:for="{{images}}" wx:key="*this">
+        <view class="q-image-wrap">
+          <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+          <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">删除</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <!-- 提交表单按钮  -->
+  <button class="weui-btn" type="primary" bindtap="submitForm">提交</button>
+</view>

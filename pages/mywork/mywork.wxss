@@ -1,0 +1,111 @@
+/* pages/myActivity/myActivity.wxss */
+.top{
+  width: 100%;
+}
+.topq{
+  width: 100%;
+}
+.tops{
+  display: flex;
+  margin: 4% 1% 1% 1%;
+  /* border: 1px solid red; */
+  width: 100%;
+  border-bottom:2rpx solid black; 
+}
+.tops .NoName{
+  margin: 1% 1% 1% 1%;
+  text-align: right;
+  /* border: 1px solid red; */
+  width: 15%;
+}
+.tops .No{
+  text-align: left;
+  margin: 1% 1% 1% 1%;
+  /* border: 1px solid red; */
+  width: 55%;
+}
+.tops .result{
+  margin: 1% 1% 1% 1%;
+  text-align: right;
+  /* border: 1px solid red; */
+  width: 25%;
+}
+.shop{
+  width: 100%;
+  /* border: 1px solid red; */
+  border-bottom: 1px dashed gray;
+}
+.shop .shopName{
+  display: flex;
+  margin: 2% 1% 2% 1%;
+  width: 100%;
+  /* border: 1px solid red;  */
+}
+.gong{
+  text-align: right;
+  width: 12%;
+  font-size: 80%;
+   /* border: 1px solid red;  */
+}
+.address{
+  text-align: left;
+  width: 87%;
+  font-size: 80%;
+  
+}
+.proName{
+  text-align: center;
+  width: 15%;
+  font-size: 80%;
+  /* border: 1px solid red; */
+}
+.proPhone{
+  width: 61%;
+  font-size: 80%;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+.prices{
+  display: flex;
+  width: 99%;
+}
+.images{
+  margin: 1% 1% 1% 4%;
+  width: 30%;
+    /* border: 1px solid red;   */
+}
+.images1{
+  margin: 1% 1% 1% 1%;
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.thumbnail {
+  width: 100%;
+  /* border: solid 1px #f2f2f2; */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.name1{
+  margin: 2% 1% 1% 1%;
+  /* border: 1px solid red; */
+}
+.name2{
+  font-size: 45rpx;
+  font-weight: 700;
+  margin: 3% 1% 1% 1%;
+  /* border: 1px solid red; */
+}
+.name3{
+  margin: 4% 1% 1% 1%;
+  /* border: 1px solid red; */
+}
+.buttons{
+  margin: 1% 1% 3% 5%;
+  width: 35%;
+}
+.buttons button{
+  font-size: 90%;
+  font-weight: 800;
+  color: white;
+  background-color: #EE0E24;
+}

@@ -1,0 +1,127 @@
+<view class='container'>
+  <!-- 此处显示已报名活动 -->
+  <view class='top'>
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>待处理</text>
+        </view>
+      </view>
+
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>业主:</view>
+          <view class='proName'>刘华</view>
+          <view class='proPhone'>18924853192</view>
+        </view>
+        <view class='shopName'>
+          <view class='gong'>地址:</view>
+          <view class='address'>成都市武侯区德源镇光谷创业咖啡1栋2单元405</view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+        <view class='buttons'>
+          <button bindtap='chuli' data-id='1'>立即处理</button>
+        </view>
+      </view>
+    </view>
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>处理中</text>
+        </view>
+      </view>
+
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>业主:</view>
+          <view class='proName'>刘华</view>
+          <view class='proPhone'>18924853192</view>
+        </view>
+        <view class='shopName'>
+          <view class='gong'>地址:</view>
+          <view class='address'>成都市武侯区德源镇光谷创业咖啡1栋2单元405</view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+        
+      </view>
+    </view>
+    <view class='topq'>
+      <view class='tops'>
+        <view class='NoName'>
+          <text >编号:</text>
+        </view>
+        <view class='No'>
+          <text>201805150002</text>
+        </view>
+        <view class='result'>
+          <text>已完成</text>
+        </view>
+      </view>
+      
+      <view class='shop'>
+        <view class='shopName'>
+          <view class='gong'>业主:</view>
+          <view class='proName'>刘华</view>
+          <view class='proPhone'>18924853192</view>
+        </view>
+        <view class='shopName'>
+          <view class='gong'>地址:</view>
+          <view class='address'>成都市武侯区德源镇光谷创业咖啡1栋2单元405</view>
+        </view>
+        <view class='prices'>
+          <view class='images'>
+            <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          </view>
+          <view class='images1'>
+            <view class='name1'>店铺名称</view>
+            <view class='name2'>活动名称</view>
+            <view class='name3'>
+              <text>￥</text>
+              <text style='color:red;'>98</text>
+            </view>
+          </view>
+        </view>
+        
+      </view>
+    </view>
+    
+    
+  </view>
+  
+</view>
