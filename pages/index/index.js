@@ -5,11 +5,8 @@ const app = getApp()
 Page({
   data: {
     imgUrls: [
-      '../../images/a.jpg',
-      '../../images/b.jpg',
-      '../../images/c.jpg',
-      '../../images/d.jpg',
-      '../../images/e.jpg'
+      '../../images/one.png',
+      '../../images/two.png'
     ],
     defaultImg:'../../images/no_pic.jpg',
     paiImage1:"../../images/buttonSolid1.png",//选中排序图片

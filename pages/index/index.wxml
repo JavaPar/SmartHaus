@@ -1,18 +1,17 @@
 <!--index.wxml-->
 <view class="container">
   <view class='head'>
-    <view class='dinwei'>
-      <image mode='widthFix' src='../../images/dingwei.png'></image>
-    </view>
+  
 
     <view class='chengshi'>
-      <view class='cheng1'>成都市</view>
+      <view class='cheng1'>浏阳市</view>
       <view class='cheng2'><image mode='widthFix' src='../../images/button.png'></image></view>
     </view>
+
     <view class='sousuos'>
       <view class="df search_arr">  
-        <icon class="searchcion" size='20' type='search'></icon>  
-        <input class="" placeholder="搜索" bindfocus='inputs' value="{{searchValue}}"/>  
+        <icon class="searchcion" size='14' type='search'></icon>  
+        <input class="" placeholder="搜索产品" bindfocus='inputs' value="{{searchValue}}"/>  
         <icon class='searchcions' size='20' bindtap='clear' type='clear'></icon>  
       </view>
     </view>
@@ -55,7 +54,7 @@
     <navigator url='/pages/product/product'>
       <view class='products'>
         <view class='images1'>
-          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          <image class='thumbnail' mode='widthFix' src='../../images/head2.png'></image>
         </view>
         <view class='imText1'>活动名称</view>
         <view class='imText2'>
@@ -68,7 +67,7 @@
     <navigator url='/pages/product/product'>
       <view class='products'>
         <view class='images1'>
-          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          <image class='thumbnail' mode='widthFix' src='../../images/head2.png'></image>
         </view>
         <view class='imText1'>活动名称</view>
         <view class='imText2'>
@@ -81,7 +80,7 @@
     <navigator url='/pages/product/product'>
       <view class='products'>
         <view class='images1'>
-          <image class='thumbnail' mode='widthFix' src='{{image == null||image==""?defaultImg:image}}'></image>
+          <image class='thumbnail' mode='widthFix' src='../../images/head3.png'></image>
         </view>
         <view class='imText1'>活动名称</view>
         <view class='imText2'>

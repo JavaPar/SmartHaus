@@ -14,9 +14,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#EE0E24",
+    "navigationBarBackgroundColor": "white",
     "navigationBarTitleText": "智能家居建材MALL",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "position": "bottom",
