@@ -1,8 +1,6 @@
 <!--index.wxml-->
 <view class="container">
   <view class='head'>
-  
-
     <view class='chengshi'>
       <view class='cheng1'>浏阳市</view>
       <view class='cheng2'><image mode='widthFix' src='../../images/button.png'></image></view>
@@ -59,7 +57,9 @@
         <view class='imText1'>活动名称</view>
         <view class='imText2'>
           <view class='jie'>离活动结束:</view>
-          <view class='tian'>三天</view>
+          <view class='tian'>
+            三天
+          </view>
         </view>
     </view>
     </navigator>

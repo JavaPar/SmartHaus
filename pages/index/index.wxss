@@ -20,15 +20,16 @@
   width: 25%;
 }
 .chengshi .cheng1{
-  padding: 5% 1% 1% 1%;
+  padding: 10% 1% 1% 1%;
   font-size:80%; 
   text-align: right;
-  margin: 5% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
   width: 70%;
 }
 .chengshi .cheng2{
-  padding: 2% 1% 1% 1%;
-  margin: 6% 0% 0% 0%;
+  /* border: 1px solid black; */
+  padding: 10% 1% 1% 1%;
+  margin: 0% 0% 0% 0%;
   width: 15%;
 }
 .cheng2 image{
@@ -36,7 +37,7 @@
 }
 .sousuos{
   width: 75%;
-    /* border: 1px solid black;   */
+     /* border: 1px solid black;    */
 }
 .search_arr {  
   background-color: #F3F3F3;
@@ -48,12 +49,13 @@
   border-radius: 30rpx;    
 }  
 .search_arr input{  
+  margin-top:1%; 
   margin-left: 60rpx;  
   height: 10rpx;  
   border-radius: 5px;  
 }  
 .searchcion {  
-  margin: 10rpx 5rpx 5rpx 180rpx;  
+  margin: 15rpx 5rpx 5rpx 180rpx;  
   position: absolute;  
   left:25rpx;  
   z-index: 2;  
@@ -72,6 +74,7 @@
   display: flex;
   width: 100%;
   text-align: center;
+  font-size: 80%;
   /* border: 1px solid red; */
 }
 .huodong_head .text1{
@@ -115,6 +118,7 @@
   box-sizing: border-box;
 }
 .imText1{
+  font-size: 80%;
   color: #EE0E24;
   margin: 1% 1% 1% 1%;
   width: 100%;
@@ -132,14 +136,18 @@
   /* border: 1px solid red; */
 }
 .tian{
+  font-size:22rpx; 
   text-align: center;
   color: white;
+  height: 35rpx;
   background-color: #EE0E24;
   width: 37%;
+  margin-top: 1%;
   border: 1px solid red;
   border-radius: 4px;
   box-sizing: border-box;
 }
 .tishi{
+  font-size: 70%;
   text-align: center;
 }

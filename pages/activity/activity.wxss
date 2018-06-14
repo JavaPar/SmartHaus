@@ -61,7 +61,7 @@
   width: 100%;
 }
 .text .text1{
-  font-size: 90%;
+  font-size: 80%;
   display: flex;
   margin: 1% 2% 1% 1%;
   width: 30%;
@@ -92,7 +92,7 @@
 }
 .images1{
   margin: 1% 1% 1% 1%;
-  width: 96%;
+  width: 96%; 
   /* border: 1px solid red; */
 }
 .thumbnail {
@@ -105,6 +105,7 @@
   color: #EE0E24;
   margin: 1% 1% 1% 1%;
   width: 100%;
+  font-size: 80%;
   /* border: 1px solid red; */
 }
 .imText2{
@@ -115,18 +116,23 @@
   /* border: 1px solid red; */
 }
 .jie{
-  width: 55%;
+  width: 67%;
   /* border: 1px solid red; */
 }
 .tian{
+  font-size:20rpx; 
   text-align: center;
   color: white;
+  height: 30rpx;
   background-color: #EE0E24;
-  width: 45%;
+  width: 28%;
+  margin-top: 3%;
+  padding-top:-3%; 
   border: 1px solid red;
   border-radius: 4px;
   box-sizing: border-box;
 }
 .tishi{
+  font-size:70%; 
   text-align: center;
 }

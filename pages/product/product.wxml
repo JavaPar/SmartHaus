@@ -6,7 +6,7 @@
   </view>
   <view class='product1'>
     <view class='image1'>
-      <image mode='widthFix' src='../../images/1.jpg'></image>
+      <image mode='widthFix' src='../../images/one.png'></image>
     </view>
     <view class='desc1'>
       <view class='row1'>
@@ -27,7 +27,7 @@
     </view>
     <p style="color:white;">1</p>
     <view class='image1'>
-      <image mode='widthFix' src='../../images/1.jpg'></image>
+      <image mode='widthFix' src='../../images/one.png'></image>
     </view>
     <view class='desc1'>
       <view class='row1'>
